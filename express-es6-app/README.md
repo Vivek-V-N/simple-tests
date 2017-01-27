@@ -1,5 +1,4 @@
 # Express ES6 Application
-=========================
 
 ## Installation
 npm install
@@ -17,4 +16,4 @@ Do whatever with it, as much as you can! :D
 
 ## More  Details
 
-[a link](https://vvek.in/2017/01/27/simple-express-app-in-es6-mode-babel/)
+[Blog Link](https://vvek.in/2017/01/27/simple-express-app-in-es6-mode-babel/)
