@@ -1,0 +1,30 @@
+{
+  "name": "express-es6-app",
+  "version": "1.0.0",
+  "description": "Simple es6 based implementation of express server.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel src -d dist --presets es2015,stage-2",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "express",
+    "simple",
+    "es6",
+    "npm",
+    "nodejs"
+  ],
+  "author": "Vivek-V-N",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
