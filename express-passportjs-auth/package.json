@@ -1,0 +1,34 @@
+{
+  "name": "express-passportjs-auth",
+  "version": "1.0.0",
+  "description": "Simple es6 based implementation of passportjs, mongodb.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel src -d dist --presets es2015,stage-2",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "express",
+    "simple",
+    "es6",
+    "npm",
+    "nodejs"
+  ],
+  "author": "Vivek-V-N",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "mongodb": "^2.2.22",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
