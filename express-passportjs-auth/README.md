@@ -15,3 +15,5 @@ npm install
 Do whatever with it, as much as you can! :D
 
 ## More  Details
+
+[Blog Link](https://vvek.in/2017/01/28/simple-passportjs-local-strategy-with-mongodb-es6-style/)
