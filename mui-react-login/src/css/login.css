@@ -1,0 +1,71 @@
+.login-form {
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.login-row {
+  height:50%;
+  margin-top:20%;
+}
+
+.login-main {
+  min-height:100%;
+  background-image: url(../resources/login-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-logo {
+  width:180px;
+  position:absolute;
+  top:45px;
+  left:40px;
+  content:url(../resources/logo-white.png);
+}
+
+.login-button {
+  width:100%;
+  margin-top:25px;
+}
+
+.login-carousel-icon {
+  font-size: 150px;
+  color:white;
+}
+
+.login-carousel-item h1{
+  font-size:30px;
+  color:white;
+  font-style:bold;
+}
+
+.login-carousel-item p {
+  font-size:20px;
+  padding:15px;
+  color:white;
+}
+
+.social-icon {
+  font-size:40px;
+  margin-left:20px;
+}
+
+.fa-google-plus-square {
+  color:red;
+}
+
+.social-bar {
+  margin-top:10px;
+  font-size:20px;
+  text-align:right;
+  width:100%;
+  display: table;
+  overflow: hidden;
+}
+
+.social-bar-content{
+  display: table-cell;
+  vertical-align: middle;
+}
