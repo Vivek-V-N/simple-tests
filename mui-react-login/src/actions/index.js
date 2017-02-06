@@ -32,21 +32,6 @@ export const loadUserProfile = (userId) => (dispatch, getState) => {
   })
 }
 
-export const MODAL_LOADING = 'MODAL_LOADING'
-export const HIMAGES_SUCCESS = 'HIMAGES_SUCCESS'
-export const HIMAGES_FAILURE = 'HIMAGES_FAILURE'
-
-export const loadHoistcamImages = () => (dispatch, getState) => {
-  console.log("dispatch load hoistcam");
-  return dispatch({
-    [CALL_API]: {
-      types: [ MODAL_LOADING, HIMAGES_SUCCESS, HIMAGES_FAILURE ],
-      endpoint: "http://162.252.86.13:8090/listfile.php?name=02804",
-      data:{}
-    }
-  })
-}
-
 export const USER_REQUEST = 'USER_REQUEST'
 export const USER_SUCCESS = 'USER_SUCCESS'
 export const USER_FAILURE = 'USER_FAILURE'
