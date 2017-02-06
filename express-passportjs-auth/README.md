@@ -15,3 +15,4 @@ npm install
 Do whatever with it, as much as you can! :D
 
 ## More  Details
+[Blog Link](https://vvek.in/2017/02/06/simple-passportjs-google-oauth-strategy-with-mongodb-es6-style/)
